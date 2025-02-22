@@ -69,6 +69,11 @@ function App() {
             />
           </div>
         </div>
+        <div className="bg-white p-3 lg:hidden xl:hidden md:hidden  flex justify-between items-center fixed bottom-0 right-0 left-0">
+          <button className="bg-blue-500 p-3 rounded cursor-pointer" onClick={() => setProductCart(true)}>View Cart</button>
+          <p className="text-black">You Saved: 1500</p>
+          <p className="text-black">Total Amount: 1500</p>
+        </div>
       </Theme>
     </>
   );
